@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="Browser" value="Chrome"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="Login Test">
+        <classes>
+            <class name="com.expedia.logintest.LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="Flights Test">
+        <classes>
+            <class name="com.expedia.flightsTest.FlightsTest">
+                <methods>
+                    <include name="flightsTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true"
+          name="Link Test">
+        <classes>
+            <class name="com.expedia.linkTest.FooterLinkTest">
+                <methods>
+                    <include name="footerLinkTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

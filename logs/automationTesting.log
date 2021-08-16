@@ -1,0 +1,10 @@
+2021-08-15 16:53:46 INFO  log4jTest:14 - First Log4j Message
+2021-08-15 16:53:46 ERROR log4jTest:15 - First Error
+2021-08-15 16:53:46 WARN  log4jTest:16 - First Waring
+2021-08-15 16:53:46 DEBUG log4jTest:17 - First Debug
+2021-08-15 16:53:46 FATAL log4jTest:18 - first fatal
+2021-08-15 18:54:14 INFO  log4jTest:26 - First Log4j Message
+2021-08-15 18:54:14 ERROR log4jTest:27 - First Error
+2021-08-15 18:54:14 WARN  log4jTest:28 - First Waring
+2021-08-15 18:54:14 DEBUG log4jTest:29 - First Debug
+2021-08-15 18:54:14 FATAL log4jTest:30 - first fatal
