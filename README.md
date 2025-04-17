@@ -79,16 +79,16 @@ Tests all links in the footer section by opening them and capturing their page t
 git clone https://github.com/your-repo-name.git
 cd your-repo-name
 
-2. Install Dependencies
-Make sure Maven is installed, then:
+### 2. Install Dependencies
+### Make sure Maven is installed, then:
 
 bash
 Copy
 Edit
 mvn clean install
 
-3. Run Tests
-Run all tests using TestNG XML:
+### 3. Run Tests
+### Run all tests using TestNG XML:
 
 bash
 Copy
